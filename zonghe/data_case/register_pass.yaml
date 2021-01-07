@@ -1,0 +1,5 @@
+#注册成功
+- data: {"mobilephone":13451081533,"pwd":123456,"regname":"tom"}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
+- data: {"mobilephone":18691010379,"pwd":123456asdfghjklzxc,"regname":""}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
